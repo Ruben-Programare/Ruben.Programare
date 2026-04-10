@@ -1,0 +1,5 @@
+#ignora toate folderele de compilare care sunt puse in acest .gitignore
+output/
+build/
+dist/
+bin/

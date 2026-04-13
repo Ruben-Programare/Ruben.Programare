@@ -20,7 +20,7 @@ int main()
 
         if(attempt == randomnumber){
             cout << "Congrats, you guessed the number in " << tries << " tries" << endl;
-            return 0;
+            break;
         }
         else{
             if(attempt > randomnumber)

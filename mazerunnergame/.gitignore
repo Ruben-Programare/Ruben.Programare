@@ -1,0 +1,6 @@
+output/
+build/
+dist/
+bin/
+/CHANGELOG.md
+/IMPROVEMENTS.md

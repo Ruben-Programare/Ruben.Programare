@@ -48,6 +48,9 @@ int main() {
 
     bool playAgain = true;
     while (playAgain) {
+        // Curatarea ecranului
+        system("cls");
+        
         // Alegerea cuvantului
         string word = chooseWord(words);
 
@@ -62,6 +65,7 @@ int main() {
 
         cout << "Bine ati venit la Spanzuratoarea!" << endl;
         cout << "Ghiciti cuvantul romanesc." << endl;
+        cout << "Vieti resetate la: " << lives << endl << endl;
 
         // Bucla principala a jocului
         while (lives > 0) {
